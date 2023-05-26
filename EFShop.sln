@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFShop", "EFShop\EFShop.csproj", "{EC921EE5-28DC-41F8-ADA7-2F78DFD89403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDB", "WinFormDB\WinFormDB.csproj", "{ADB0B6DF-90C4-48A9-B6C8-F77F02449199}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC921EE5-28DC-41F8-ADA7-2F78DFD89403} = {EC921EE5-28DC-41F8-ADA7-2F78DFD89403}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC921EE5-28DC-41F8-ADA7-2F78DFD89403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC921EE5-28DC-41F8-ADA7-2F78DFD89403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC921EE5-28DC-41F8-ADA7-2F78DFD89403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC921EE5-28DC-41F8-ADA7-2F78DFD89403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB0B6DF-90C4-48A9-B6C8-F77F02449199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB0B6DF-90C4-48A9-B6C8-F77F02449199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB0B6DF-90C4-48A9-B6C8-F77F02449199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB0B6DF-90C4-48A9-B6C8-F77F02449199}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C2AEABA-D60E-43D3-B571-121172DD6244}
+	EndGlobalSection
+EndGlobal
